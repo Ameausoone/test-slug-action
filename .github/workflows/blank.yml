@@ -33,4 +33,4 @@ jobs:
         uses: rlespinasse/github-slug-action@v3.x
 
       - name: print env
-        run: env
+        run: env | grep "GITHUB"
