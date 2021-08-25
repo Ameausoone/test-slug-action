@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Inject slug/short variables
-        uses: rlespinasse/github-slug-action@v3.x
+        uses: rlespinasse/github-slug-action@feat/71/github-branch-name
 
       - name: print env
         run: env | grep "GITHUB"
