@@ -31,3 +31,6 @@ jobs:
 
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v3.x
+
+      - name: print env
+        run: env
