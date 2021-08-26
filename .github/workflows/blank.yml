@@ -27,8 +27,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
-
+        run: |
+          echo Hello, world!
+          echo "GITHUB_REF : ${GITHUB_REF}"
+          echo "GITHUB_HEAD_REF : ${GITHUB_HEAD_REF}"
+          
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@feat/71/github-branch-name
 
