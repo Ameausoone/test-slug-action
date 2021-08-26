@@ -1,3 +1,3 @@
 # test-slug-action
 
-test
+branch2
