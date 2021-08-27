@@ -34,7 +34,7 @@ jobs:
           
         
       - name: Inject slug/short variables
-        uses: Ameausoone/github-slug-action@ee11470323c33640bef61eb3221eb44743c1abf7
+        uses: Ameausoone/github-slug-action@feat/71/github-branch-name
 
       - name: print env
         run: env | grep "GITHUB"
