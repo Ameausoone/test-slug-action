@@ -1,3 +1,3 @@
 # test-slug-action
 
-test
+test 2
